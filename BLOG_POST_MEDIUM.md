@@ -1,4 +1,4 @@
-# 📱 Apple Watch vs Fitbit: A Data Scientist's Deep Dive into Wearable Fitness Tracking
+# Apple Watch vs Fitbit: A Data Scientist's Deep Dive into Wearable Fitness Tracking
 
 *A comprehensive analysis comparing two leading fitness devices using Python, Machine Learning, and Statistical Testing*
 
@@ -8,17 +8,17 @@
 
 ---
 
-## 🎯 Introduction
+## Introduction
 
 With over **500 million people** worldwide using wearable fitness devices, the question of accuracy and reliability has never been more important. As a data scientist, I decided to put two of the most popular devices—**Apple Watch** and **Fitbit**—to the test using real-world data and rigorous statistical analysis.
 
 In this article, I'll walk you through my complete analysis, from exploratory data analysis to machine learning modeling, sharing key insights that matter for developers, researchers, and fitness enthusiasts alike.
 
-**🔗 [Full Project on GitHub](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)**
+** [Full Project on GitHub](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)**
 
 ---
 
-## 📊 The Dataset
+## The Dataset
 
 I used the [Apple Watch and Fitbit Data](https://www.kaggle.com/datasets/aleespinosa/apple-watch-and-fitbit-data) dataset from Kaggle, containing:
 
@@ -39,7 +39,7 @@ I used the [Apple Watch and Fitbit Data](https://www.kaggle.com/datasets/aleespi
 
 ---
 
-## 🔬 Part 1: Exploratory Data Analysis
+## Part 1: Exploratory Data Analysis
 
 ### Device Distribution
 
@@ -77,7 +77,7 @@ fig, axes = plt.subplots(1, 3, figsize=(20, 7))
 
 ---
 
-## 📈 Part 2: Statistical Hypothesis Testing
+## Part 2: Statistical Hypothesis Testing
 
 I conducted three formal hypothesis tests to answer key questions:
 
@@ -90,7 +90,7 @@ H₁: μ_AppleWatch ≠ μ_Fitbit
 ```
 
 **Results**:
-- Independent t-test: **p < 0.05** ✅
+- Independent t-test: **p < 0.05** 
 - Mann-Whitney U test: Confirmed
 - **Conclusion**: Significant difference detected
 
@@ -110,7 +110,7 @@ f_fb, p_fb = f_oneway(*fitbit_groups)
 
 ---
 
-## 🤖 Part 3: Machine Learning
+## Part 3: Machine Learning
 
 ### Regression: Predicting Calorie Expenditure
 
@@ -130,7 +130,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 
 gb_model = GradientBoostingRegressor(n_estimators=100, random_state=42)
 gb_model.fit(X_train_scaled, y_train)
-# R² = 0.93 ✅
+# R² = 0.93 
 ```
 
 ### Classification: Activity Recognition
@@ -152,16 +152,16 @@ What features matter most for predicting activities?
 
 ```python
 # Top 5 features
-1. steps         - 0.28
-2. heart_rate    - 0.22
-3. calories      - 0.18
-4. distance      - 0.12
+1. steps - 0.28
+2. heart_rate - 0.22
+3. calories - 0.18
+4. distance - 0.12
 5. entropy_steps - 0.06
 ```
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 ### For Fitness App Developers:
 1. **Use ensemble methods** (Random Forest, Gradient Boosting) for best accuracy
@@ -180,7 +180,7 @@ What features matter most for predicting activities?
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Technologies Used:
 - **Python 3.8+**
@@ -192,29 +192,29 @@ What features matter most for predicting activities?
 ### Project Structure:
 ```
 Apple & Fitbit Data/
-├── apple.ipynb          # Apple Watch analysis
-├── fitbit.ipynb         # Fitbit analysis
-├── main.ipynb           # Combined comparison
+├── apple.ipynb # Apple Watch analysis
+├── fitbit.ipynb # Fitbit analysis
+├── main.ipynb # Combined comparison
 ├── Graph Visualization/ # 39 exported charts
-└── README.md           # Documentation
+└── README.md # Documentation
 ```
 
 ---
 
-## 📊 Visualizations Gallery
+## Visualizations Gallery
 
 The project generated **39 professional visualizations** including:
 
-- 📊 Distribution comparisons
-- 📈 Correlation heatmaps
-- 🎻 Violin plots by activity
-- 📉 Regression performance charts
-- 🎯 Confusion matrices
-- 📋 Feature importance rankings
+- Distribution comparisons
+- Correlation heatmaps
+- Violin plots by activity
+- Regression performance charts
+- Confusion matrices
+- Feature importance rankings
 
 ---
 
-## 🚀 Try It Yourself
+## Try It Yourself
 
 **GitHub**: [Apple-Fitbit-Data-Analysis](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
 
@@ -228,7 +228,7 @@ jupyter notebook
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Time series analysis for temporal patterns
 - [ ] Deep learning models (LSTM, CNN)
@@ -238,24 +238,24 @@ jupyter notebook
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 This analysis demonstrates that both Apple Watch and Fitbit provide reliable health tracking data, with machine learning models achieving:
 
-- ✅ **R² > 0.90** for calorie prediction
-- ✅ **88%+ accuracy** for activity recognition
-- ✅ **Cross-device compatibility** with combined training
+- **R² > 0.90** for calorie prediction
+- **88%+ accuracy** for activity recognition
+- **Cross-device compatibility** with combined training
 
 Whether you're building a fitness app, conducting health research, or simply curious about your wearable's accuracy—the data shows these devices are valuable tools for health monitoring.
 
 ---
 
-**🙏 Thanks for reading!**
+**Thanks for reading!**
 
 If you found this analysis useful, please:
-- ⭐ Star the [GitHub repo](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
-- 📊 Upvote on [Kaggle](https://www.kaggle.com/)
-- 💬 Share your thoughts in the comments
+- Star the [GitHub repo](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
+- Upvote on [Kaggle](https://www.kaggle.com/)
+- Share your thoughts in the comments
 
 ---
 

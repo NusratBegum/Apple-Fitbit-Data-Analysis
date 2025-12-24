@@ -1,4 +1,4 @@
-# 🏆 Kaggle Notebook Submission
+# Kaggle Notebook Submission
 
 ## Title
 **Apple Watch vs Fitbit: Complete Wearable Data Analysis with ML**
@@ -13,9 +13,9 @@ Professional Data Science Portfolio Project - EDA, Statistical Testing, and Mach
 ## Description (for Kaggle)
 
 ```
-# 📊 Apple Watch vs Fitbit: Comprehensive Wearable Data Analysis
+# Apple Watch vs Fitbit: Comprehensive Wearable Data Analysis
 
-## 🎯 Project Overview
+## Project Overview
 
 This professional data science portfolio project provides a complete analysis of Apple Watch and Fitbit fitness tracking devices. Using real-world health and activity data, we demonstrate end-to-end data science workflows including:
 
@@ -24,7 +24,7 @@ This professional data science portfolio project provides a complete analysis of
 - **Machine Learning Models** for regression and classification
 - **Cross-Device Comparison** to identify device-specific patterns
 
-## 📋 What's Inside
+## What's Inside
 
 ### 1. Data Exploration
 - Demographic distributions by device
@@ -54,21 +54,21 @@ This professional data science portfolio project provides a complete analysis of
 | Gradient Boosting | 89%+ |
 | K-Nearest Neighbors | 82%+ |
 
-## 🔑 Key Findings
+## Key Findings
 
-1. ✅ Both devices provide reliable fitness tracking data
-2. ✅ Ensemble methods achieve R² > 0.90 for calorie prediction
-3. ✅ Activity recognition accuracy exceeds 88%
-4. ✅ Steps, heart rate, and distance are top predictive features
-5. ✅ Cross-device modeling is feasible
+1. Both devices provide reliable fitness tracking data
+2. Ensemble methods achieve R² > 0.90 for calorie prediction
+3. Activity recognition accuracy exceeds 88%
+4. Steps, heart rate, and distance are top predictive features
+5. Cross-device modeling is feasible
 
-## 📁 Notebooks
+## Notebooks
 
 - **apple.ipynb**: Apple Watch focused analysis
 - **fitbit.ipynb**: Fitbit focused analysis
 - **main.ipynb**: Combined cross-device comparison
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3.8+
 - Pandas, NumPy
@@ -76,11 +76,11 @@ This professional data science portfolio project provides a complete analysis of
 - Seaborn, Matplotlib
 - SciPy
 
-## 📊 Dataset
+## Dataset
 
 Using the "Apple Watch and Fitbit Data" dataset with 11,985 records covering various activities and health metrics.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset: aleespinosa/apple-watch-and-fitbit-data
 - Scikit-learn for ML algorithms
@@ -88,9 +88,9 @@ Using the "Apple Watch and Fitbit Data" dataset with 11,985 records covering var
 
 ---
 
-**⭐ If you find this analysis useful, please upvote!**
+**If you find this analysis useful, please upvote!**
 
-**🔗 GitHub Repository**: [Apple-Fitbit-Data-Analysis](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
+**GitHub Repository**: [Apple-Fitbit-Data-Analysis](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
 ```
 
 ---

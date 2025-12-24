@@ -7,36 +7,36 @@ cover_image: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=1200
 canonical_url: https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis
 ---
 
-# 📱 Apple Watch vs Fitbit: A Data Science Deep Dive
+# Apple Watch vs Fitbit: A Data Science Deep Dive
 
 Ever wondered how accurate your fitness tracker really is? I analyzed **11,985 records** comparing Apple Watch and Fitbit to find out!
 
-## 🎯 TL;DR
+## TL;DR
 
-- Both devices are reliable ✅
+- Both devices are reliable 
 - ML models achieve **R² > 0.90** for calorie prediction
 - Activity recognition hits **88%+ accuracy**
 - **Steps, heart rate, distance** = top predictive features
 
 ---
 
-## 📊 The Project
+## The Project
 
 I built a complete data science pipeline:
 
 ```
-📁 Project Structure
-├── apple.ipynb    → Apple Watch analysis (71 cells)
-├── fitbit.ipynb   → Fitbit analysis (45 cells)
-├── main.ipynb     → Cross-device comparison (41 cells)
-└── 39 visualizations 📈
+Project Structure
+├── apple.ipynb → Apple Watch analysis (71 cells)
+├── fitbit.ipynb → Fitbit analysis (45 cells)
+├── main.ipynb → Cross-device comparison (41 cells)
+└── 39 visualizations 
 ```
 
 **GitHub**: [Apple-Fitbit-Data-Analysis](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
 
 ---
 
-## 🔬 What I Analyzed
+## What I Analyzed
 
 ### 1. Statistical Testing
 
@@ -45,7 +45,7 @@ I built a complete data science pipeline:
 from scipy.stats import ttest_ind
 
 t_stat, p_value = ttest_ind(apple_watch_hr, fitbit_hr)
-# Result: p < 0.05 → Significant difference! ✅
+# Result: p < 0.05 → Significant difference! 
 ```
 
 ### 2. Machine Learning
@@ -56,18 +56,18 @@ t_stat, p_value = ttest_ind(apple_watch_hr, fitbit_hr)
 |-------|----------|
 | Linear Regression | 0.85 |
 | Random Forest | 0.92 |
-| Gradient Boosting | **0.93** ✅ |
+| Gradient Boosting | **0.93** |
 
 **Classification (Activity Recognition)**:
 
 | Model | Accuracy |
 |-------|----------|
 | Random Forest | 88% |
-| Gradient Boosting | **89%** ✅ |
+| Gradient Boosting | **89%** |
 
 ---
 
-## 💻 Quick Code Snippets
+## Quick Code Snippets
 
 ### Feature Importance
 
@@ -96,7 +96,7 @@ plt.show()
 
 ---
 
-## 🚀 Get Started
+## Get Started
 
 ```bash
 git clone https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis.git
@@ -107,19 +107,19 @@ jupyter notebook
 
 ---
 
-## 📈 Key Visualizations
+## Key Visualizations
 
 The project includes **39 professional charts**:
 
-- 📊 Distribution comparisons
-- 🔥 Correlation heatmaps
-- 🎻 Violin plots by activity
-- 📉 ML performance charts
-- 🎯 Confusion matrices
+- Distribution comparisons
+- Correlation heatmaps
+- Violin plots by activity
+- ML performance charts
+- Confusion matrices
 
 ---
 
-## 🎓 What I Learned
+## What I Learned
 
 1. **Ensemble methods** outperform linear models significantly
 2. **Cross-device training** improves generalization
@@ -128,7 +128,7 @@ The project includes **39 professional charts**:
 
 ---
 
-## 📋 Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - Pandas, NumPy
@@ -139,21 +139,21 @@ The project includes **39 professional charts**:
 
 ---
 
-## 🔗 Links
+## Links
 
-- 📂 [GitHub Repository](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
-- 📊 [Kaggle Dataset](https://www.kaggle.com/datasets/aleespinosa/apple-watch-and-fitbit-data)
+- [GitHub Repository](https://github.com/NusratBegum/Apple-Fitbit-Data-Analysis)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/aleespinosa/apple-watch-and-fitbit-data)
 
 ---
 
-## 💬 Discussion
+## Discussion
 
 Have you done similar analyses? What devices are you using for fitness tracking?
 
-Drop a comment below! 👇
+Drop a comment below! 
 
 ---
 
-**Follow for more data science content!** 🚀
+**Follow for more data science content!** 
 
 #python #datascience #machinelearning #fitness #portfolio

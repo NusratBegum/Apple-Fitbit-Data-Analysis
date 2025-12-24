@@ -1,4 +1,4 @@
-# 📊 Detailed Analysis Report: Apple Watch vs Fitbit
+# Detailed Analysis Report: Apple Watch vs Fitbit
 
 ## Executive Summary
 
@@ -226,11 +226,11 @@ H₁: At least one activity differs significantly
 
 This analysis demonstrates that:
 
-1. ✅ Both Apple Watch and Fitbit provide **reliable health tracking data**
-2. ✅ **Machine learning models** can accurately predict calories (R² > 0.90) and classify activities (>88% accuracy)
-3. ✅ **Cross-device modeling** is feasible with combined training data
-4. ✅ **Steps, heart rate, and distance** are the most predictive features
-5. ✅ **Ensemble methods** (Random Forest, Gradient Boosting) provide best performance
+1. Both Apple Watch and Fitbit provide **reliable health tracking data**
+2. **Machine learning models** can accurately predict calories (R² > 0.90) and classify activities (>88% accuracy)
+3. **Cross-device modeling** is feasible with combined training data
+4. **Steps, heart rate, and distance** are the most predictive features
+5. **Ensemble methods** (Random Forest, Gradient Boosting) provide best performance
 
 The findings support the development of **device-agnostic fitness applications** that can serve users regardless of their wearable device choice.
 

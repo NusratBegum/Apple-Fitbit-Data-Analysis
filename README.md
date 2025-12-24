@@ -1,4 +1,4 @@
-# 📊 Apple Watch vs Fitbit: Comprehensive Wearable Data Analysis
+# Apple Watch vs Fitbit: Comprehensive Wearable Data Analysis
 
 <div align="center">
 
@@ -10,17 +10,17 @@
 
 **A professional Data Science portfolio project comparing Apple Watch and Fitbit fitness tracking devices using advanced statistical analysis and machine learning.**
 
-[📓 View Notebooks](#-project-structure) • [📊 Key Findings](#-key-findings) • [🚀 Quick Start](#-quick-start) • [📈 Results](#-results)
+[ View Notebooks](#-project-structure) • [ Key Findings](#-key-findings) • [ Quick Start](#-quick-start) • [ Results](#-results)
 
 </div>
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 This comprehensive analysis investigates the performance and accuracy of two leading wearable fitness devices - **Apple Watch** and **Fitbit** - using real-world health and activity data. The project demonstrates end-to-end data science workflows including exploratory data analysis, statistical hypothesis testing, and machine learning modeling.
 
-### 📌 Business Questions Answered
+### Business Questions Answered
 
 | Question | Approach | Key Finding |
 |----------|----------|-------------|
@@ -31,53 +31,53 @@ This comprehensive analysis investigates the performance and accuracy of two lea
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Apple & Fitbit Data/
 │
-├── 📓 apple.ipynb              # Apple Watch focused analysis (71 cells)
-├── 📓 fitbit.ipynb             # Fitbit focused analysis (45 cells)
-├── 📓 main.ipynb               # Combined cross-device analysis (41 cells)
+├── apple.ipynb # Apple Watch focused analysis (71 cells)
+├── fitbit.ipynb # Fitbit focused analysis (45 cells)
+├── main.ipynb # Combined cross-device analysis (41 cells)
 │
-├── 📁 Graph Visualization/     # All exported visualizations
-│   ├── apple_*.png            # 17 Apple Watch visualizations
-│   ├── fitbit_*.png           # 13 Fitbit visualizations
-│   └── main_*.png             # 9 Combined analysis visualizations
+├── Graph Visualization/ # All exported visualizations
+│ ├── apple_*.png # 17 Apple Watch visualizations
+│ ├── fitbit_*.png # 13 Fitbit visualizations
+│ └── main_*.png # 9 Combined analysis visualizations
 │
-├── 📄 README.md                # Project documentation
-├── 📄 ANALYSIS_REPORT.md       # Detailed analysis findings
-├── 📄 requirements.txt         # Python dependencies
-└── 📄 LICENSE                  # MIT License
+├── README.md # Project documentation
+├── ANALYSIS_REPORT.md # Detailed analysis findings
+├── requirements.txt # Python dependencies
+└── LICENSE # MIT License
 ```
 
 ---
 
-## 🔬 Analysis Pipeline
+## Analysis Pipeline
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        DATA SCIENCE WORKFLOW                                 │
+│ DATA SCIENCE WORKFLOW │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                  │
-│  │ Data Loading │───▶│   Data EDA   │───▶│   Feature    │                  │
-│  │ & Validation │    │ & Profiling  │    │ Engineering  │                  │
-│  └──────────────┘    └──────────────┘    └──────────────┘                  │
-│                                                 │                           │
-│         ┌───────────────────────────────────────┘                           │
-│         ▼                                                                   │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                  │
-│  │  Statistical │───▶│   Machine    │───▶│  Insights &  │                  │
-│  │   Testing    │    │   Learning   │    │  Reporting   │                  │
-│  └──────────────┘    └──────────────┘    └──────────────┘                  │
-│                                                                             │
+│ │
+│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
+│ │ Data Loading │───▶│ Data EDA │───▶│ Feature │ │
+│ │ & Validation │ │ & Profiling │ │ Engineering │ │
+│ └──────────────┘ └──────────────┘ └──────────────┘ │
+│ │ │
+│ ┌───────────────────────────────────────┘ │
+│ ▼ │
+│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
+│ │ Statistical │───▶│ Machine │───▶│ Insights & │ │
+│ │ Testing │ │ Learning │ │ Reporting │ │
+│ └──────────────┘ └──────────────┘ └──────────────┘ │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Attribute | Value |
 |-----------|-------|
@@ -107,17 +107,17 @@ Apple & Fitbit Data/
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
-### 📈 Statistical Analysis
+### Statistical Analysis
 
 | Hypothesis Test | Test Used | Result | Interpretation |
 |-----------------|-----------|--------|----------------|
-| Heart Rate Difference | Independent t-test | p < 0.05 | ✅ Significant difference between devices |
-| Steps Difference | Mann-Whitney U | p < 0.05 | ✅ Significant difference between devices |
-| Calories by Activity | One-way ANOVA | p < 0.001 | ✅ Activities significantly affect calorie burn |
+| Heart Rate Difference | Independent t-test | p < 0.05 | Significant difference between devices |
+| Steps Difference | Mann-Whitney U | p < 0.05 | Significant difference between devices |
+| Calories by Activity | One-way ANOVA | p < 0.001 | Activities significantly affect calorie burn |
 
-### 🤖 Machine Learning Performance
+### Machine Learning Performance
 
 #### Regression (Calorie Prediction)
 
@@ -136,7 +136,7 @@ Apple & Fitbit Data/
 | Gradient Boosting | 89%+ | 88%+ | 89%+ |
 | K-Nearest Neighbors | 82%+ | 81%+ | 82%+ |
 
-### 🏆 Top Predictive Features
+### Top Predictive Features
 
 1. **Steps** - Highest importance for activity classification
 2. **Heart Rate** - Strong predictor for calorie expenditure
@@ -146,7 +146,7 @@ Apple & Fitbit Data/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -179,7 +179,7 @@ jupyter notebook
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 pandas>=2.0.0
@@ -193,7 +193,7 @@ jupyter>=1.0.0
 
 ---
 
-## 📊 Visualizations Gallery
+## Visualizations Gallery
 
 The project generates **39 professional visualizations** covering:
 
@@ -210,7 +210,7 @@ All visualizations are saved in the `Graph Visualization/` folder with high-reso
 
 ---
 
-## 💡 Business Applications
+## Business Applications
 
 ### For Fitness App Developers
 - Build device-agnostic algorithms using combined training data
@@ -229,7 +229,7 @@ All visualizations are saved in the `Graph Visualization/` folder with high-reso
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Time series analysis for temporal patterns
 - [ ] Deep learning models (LSTM, CNN) for improved accuracy
@@ -239,7 +239,7 @@ All visualizations are saved in the `Graph Visualization/` folder with high-reso
 
 ---
 
-## 📚 References
+## References
 
 1. Kaggle Dataset: [Apple Watch and Fitbit Data](https://www.kaggle.com/datasets/aleespinosa/apple-watch-and-fitbit-data)
 2. Scikit-learn Documentation: [Machine Learning in Python](https://scikit-learn.org/)
@@ -247,7 +247,7 @@ All visualizations are saved in the `Graph Visualization/` folder with high-reso
 
 ---
 
-## 👤 Author
+## Author
 
 **Nusrat Begum**
 
@@ -256,25 +256,25 @@ All visualizations are saved in the `Graph Visualization/` folder with high-reso
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ⭐ Support
+## Support
 
 If you found this project helpful, please consider:
-- ⭐ Starring this repository
-- 🐛 Reporting issues
-- 🔀 Contributing improvements
-- 📢 Sharing with others
+- Starring this repository
+- Reporting issues
+- Contributing improvements
+- Sharing with others
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the Data Science Community**
+**Made for the Data Science Community**
 
 *Professional Portfolio Project | 2024*
 
